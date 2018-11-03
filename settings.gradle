@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':ymd'
+project(':ymd').projectDir = new File('ThirdLibs/ymd')
